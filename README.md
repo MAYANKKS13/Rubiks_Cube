@@ -8,4 +8,6 @@ The different methods by which we can solve a Rubik's Cube are:-
 <LI>Roux Method</LI>
 <LI>Z Method</LI></UL>
 
+<H2>Beginner Method</h2>
+
 
