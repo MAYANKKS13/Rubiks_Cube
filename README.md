@@ -1,3 +1,11 @@
 # Rubik-s-Cube
 
-This repository contains the different steps and methods by which one can solve a Rubik's Cube.
+
+
+The different methods by which we can solve a Rubik's Cube are:-
+<UL><LI>Beginner Method.</LI>
+<LI>CFOF Method</LI>
+<LI>Roux Method</LI>
+<LI>Z Method</LI></UL>
+
+
