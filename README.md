@@ -58,7 +58,30 @@ After solving the corners, our first layer is solved now and the cube will look 
 
 #### Step 3:- Second Layer   
 
-Now,....
+Now, after the first layer, we have to solve the second layer. This part is easy as we have to put only four edge pieces of the second layer to their correct posotion and the algorithm required to do this is quite similar for every edge.<br><br>
+_[Note:- The first layer that we solved previously have to keep at the bottom (means the white face in our case) & the yellow center at the top]_<br><br>
+Now for this, firstly we have to bring the edges of the second layer (means the edges that do not have the top face color i.e. yellow color in our case) to the top layer and have to perform these algorithms as shown in the diagram
+
+<div id="table" align="center">
+
+| Case                                                                                                                                                                    | Algorithm        |
+| ---------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------- |
+| <img src="https://github.com/MAYANKKS13/Rubik-s-Cube/assets/89644981/ef9ae0fe-3413-40eb-85e9-8c895c4a6b1e" alt="Screenshot (10)" width="100" height="100">             | U R U R' U' F' U' F |
+| <img src="https://github.com/MAYANKKS13/Rubik-s-Cube/assets/89644981/b4f70812-7121-422f-aa02-3973f6d38f33" alt="Screenshot (10)" width="100" height="100">             | U' L' U' L U F U F'|
+
+</div><br>
+We have to match the edge color to the center color as shown in the diagram and to perform the algos depending if the edge piece has to be placed on the right side (1st diagram) or left side (2nd diagram). In this way, the 2nd layer is solved. <br><br>
+See, we are just replacing the incoorect piece with the correct edge piece. So there may occur situation if the the required piece is in the second layer itself but swapped in its position as shown in the diagram.<br>
+
+<div id="header" align="center">
+  <img src="https://github.com/MAYANKKS13/Rubik-s-Cube/assets/89644981/37f98052-82c8-489a-a242-c2836a6c1c1c" width="120" height="120"/>
+</div><br>
+
+In this condition, simply execute any of the algos mentioned above depending whether the piece is on the right or left side. In this way, the correct piece will come to the top layer and now perform the required algorithm from the table.<br><br><br>
+
+#### Step 4:- Last layer Cross
+
+Now we have solved the two layers of the cube and its the time for the last layer.
 
 
 
