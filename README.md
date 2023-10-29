@@ -70,7 +70,7 @@ Now for this, firstly we have to bring the edges of the second layer (means the 
 | <img src="https://github.com/MAYANKKS13/Rubik-s-Cube/assets/89644981/b4f70812-7121-422f-aa02-3973f6d38f33" alt="Screenshot (10)" width="100" height="100">             | U' L' U' L U F U F'|
 
 </div><br>
-We have to match the edge color to the center color as shown in the diagram and to perform the algos depending if the edge piece has to be placed on the right side (1st diagram) or left side (2nd diagram). In this way, the 2nd layer is solved. <br><br>
+We have to match the edge color to the center color as shown in the diagram and to perform the algos depending if the edge piece has to be placed on the right side (1st diagram) or left side (2nd diagram). In this way, the 2nd layer is solved. <br>
 See, we are just replacing the incoorect piece with the correct edge piece. So there may occur situation if the the required piece is in the second layer itself but swapped in its position as shown in the diagram.<br>
 
 <div id="header" align="center">
