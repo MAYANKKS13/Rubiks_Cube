@@ -91,7 +91,7 @@ First step towards solving the last layer is making the cross on it like this.
 For this, firstly we are going to get atmost four cases as shown in the figure <br>
 
 <div id="header" align="center">
-<img src="https://github.com/MAYANKKS13/Rubik-s-Cube/assets/89644981/33b6b370-ff1b-49c6-8c7d-c3bee8d3999f" width="120" height="120"/>(a)
+<img src="https://github.com/MAYANKKS13/Rubik-s-Cube/assets/89644981/22f7f795-fce2-424d-8b37-1a087926606f" width="120" height="120"/>(a)
 <img src="https://github.com/MAYANKKS13/Rubik-s-Cube/assets/89644981/490b6a4f-9f4f-4173-9d52-2094a7d0ed1d" width="120" height="120"/>(b)
 <img src="https://github.com/MAYANKKS13/Rubik-s-Cube/assets/89644981/ded6ad3b-a81e-45e0-ada0-62584fa034fa" width="120" height="120"/>(c)
 <img src="https://github.com/MAYANKKS13/Rubik-s-Cube/assets/89644981/634a5bf5-1f44-456c-bee7-8daa80adb14d" width="120" height="120"/>(d)
@@ -113,12 +113,14 @@ This part is only the matter of identification of the cases. Means you may get s
 <img src="https://github.com/MAYANKKS13/Rubik-s-Cube/assets/89644981/e399aa2b-2963-4510-b5cb-dfd7eed349b3" width="120" height="120"/>
 <img src="https://github.com/MAYANKKS13/Rubik-s-Cube/assets/89644981/8bedf165-7c31-40c8-9105-b7ab8f934019" width="120" height="120"/>
 <img src="https://github.com/MAYANKKS13/Rubik-s-Cube/assets/89644981/0f53dab6-900a-48f3-9436-5bd40244a5d4" width="120" height="120"/>
-<img src="https://github.com/MAYANKKS13/Rubik-s-Cube/assets/89644981/fc9cada9-08e4-459b-a575-59e0f398a13a" width="120" height="120"/>
+<img src="https://github.com/MAYANKKS13/Rubik-s-Cube/assets/89644981/cfdce003-cebc-4911-bf1c-d63503152a1f" width="120" height="120"/>
 </div><br><br>
 
 You have to only identify the cases among the (a), (b), (c) or (d) and do as per the above guidance. In this way you have solved the cross on the lasst layer. Now, the next step is to match the last layer edges.<br><br><br>
 
 #### Step 5:- Last layer Edges
+
+
 
 
 
