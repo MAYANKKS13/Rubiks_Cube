@@ -81,7 +81,62 @@ In this condition, simply execute any of the algos mentioned above depending whe
 
 #### Step 4:- Last layer Cross
 
-Now we have solved the two layers of the cube and its the time for the last layer.
+Now we have solved the two layers of the cube and its the time for the last layer. Now from here, things are little complicated as now we have to do moves which are not going to affect the previously solved two layers.<br>
+First step towards solving the last layer is making the cross on it like this.
+
+<div id="header" align="center">
+  <img src="https://github.com/MAYANKKS13/Rubik-s-Cube/assets/89644981/3132124c-61de-430b-9566-4f3fb428742a" width="120" height="120"/>
+</div><br>
+
+For this, firstly we are going to get atmost four cases as shown in the figure <br>
+
+<div id="header" align="center">
+<img src="https://github.com/MAYANKKS13/Rubik-s-Cube/assets/89644981/33b6b370-ff1b-49c6-8c7d-c3bee8d3999f" width="120" height="120"/>(a)
+<img src="https://github.com/MAYANKKS13/Rubik-s-Cube/assets/89644981/490b6a4f-9f4f-4173-9d52-2094a7d0ed1d" width="120" height="120"/>(b)
+<img src="https://github.com/MAYANKKS13/Rubik-s-Cube/assets/89644981/ded6ad3b-a81e-45e0-ada0-62584fa034fa" width="120" height="120"/>(c)
+<img src="https://github.com/MAYANKKS13/Rubik-s-Cube/assets/89644981/634a5bf5-1f44-456c-bee7-8daa80adb14d" width="120" height="120"/>(d)
+</div><br>
+And there is only one algorithm<br><br>
+<div id="algo" align="center">
+<b>F R U R' U' F'</b>
+</div><br><br>
+
+Now out of the above four figure, if you have got (d) then it is okay as we have got an inbuilt cross already. Now for the remaining three cases, our main aim is to get the fourth case. The main advantage is that when you apply the above algorithm, it is going to give you the other cases. When applied to (a), it will give you (b). When applied to (b), it will give you (c) or even (d) & when applied to (c) it will give you (d).<br><br>
+Now, there are certain ways how you should apply that algo to the cases.<br>
+For (a):- Apply the algo anyway you want.<br>
+For (b):- Firstly keep the backward L towards yourself to the right side and then apply the algo<br>
+For (c):- Keep the line in the horizontal position and then apply the algo.<br><br>
+This part is only the matter of identification of the cases. Means you may get some variations of the four cases mentioned above as shown in the figure
+
+<div id="header" align="center">
+<img src="https://github.com/MAYANKKS13/Rubik-s-Cube/assets/89644981/45207568-3dd8-4c71-aabf-22fbdf609d41" width="120" height="120"/>
+<img src="https://github.com/MAYANKKS13/Rubik-s-Cube/assets/89644981/e399aa2b-2963-4510-b5cb-dfd7eed349b3" width="120" height="120"/>
+<img src="https://github.com/MAYANKKS13/Rubik-s-Cube/assets/89644981/8bedf165-7c31-40c8-9105-b7ab8f934019" width="120" height="120"/>
+<img src="https://github.com/MAYANKKS13/Rubik-s-Cube/assets/89644981/0f53dab6-900a-48f3-9436-5bd40244a5d4" width="120" height="120"/>
+<img src="https://github.com/MAYANKKS13/Rubik-s-Cube/assets/89644981/fc9cada9-08e4-459b-a575-59e0f398a13a" width="120" height="120"/>
+</div><br><br>
+
+You have to only identify the cases among the (a), (b), (c) or (d) and do as per the above guidance. In this way you have solved the cross on the lasst layer. Now, the next step is to match the last layer edges.<br><br><br>
+
+#### Step 5:- Last layer Edges
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
