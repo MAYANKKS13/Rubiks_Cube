@@ -103,9 +103,9 @@ And there is only one algorithm<br><br>
 
 Now out of the above four figure, if you have got (d) then it is okay as we have got an inbuilt cross already. Now for the remaining three cases, our main aim is to get the fourth case. The main advantage is that when you apply the above algorithm, it is going to give you the other cases. When applied to (a), it will give you (b). When applied to (b), it will give you (c) or even (d) & when applied to (c) it will give you (d).<br><br>
 Now, there are certain ways how you should apply that algo to the cases.<br>
-For (a):- Apply the algo anyway you want.<br>
-For (b):- Firstly keep the backward L towards yourself to the right side and then apply the algo<br>
-For (c):- Keep the line in the horizontal position and then apply the algo.<br><br>
+***For (a)***:- Apply the algo anyway you want.<br>
+***For (b)***:- Firstly keep the backward L towards yourself to the right side and then apply the algo<br>
+***For (c)***:- Keep the line in the horizontal position and then apply the algo.<br><br>
 This part is only the matter of identification of the cases. Means you may get some variations of the four cases mentioned above as shown in the figure
 
 <div id="header" align="center">
@@ -120,8 +120,26 @@ You have to only identify the cases among the (a), (b), (c) or (d) and do as per
 
 #### Step 5:- Last layer Edges
 
+This part of the solving process is quite very easy. Just like the first layer, similarly we have to do the edge matching but keeping in mind that the moves are not going to alter the previously done steps till now. <br><br>
+For the last layer edges match, you are going to get atleast two edges match with the center colour already or all the four edges (solved case). Firstly, turn the top face untill two of the edge piece match with the center colour. Now, here two cases only occur as shown in the figure. <br>
 
+<div id="header" align="center">
+<img src="https://github.com/MAYANKKS13/Rubik-s-Cube/assets/89644981/cd0842a8-a203-4c64-8747-4b467877872f" width="120" height="120"/>(a)
+<img src="https://github.com/MAYANKKS13/Rubik-s-Cube/assets/89644981/1a5ba84d-1091-43e2-91c6-f03a3aaecd9f" width="120" height="120"/>(b)
+</div><br>
 
+Case (a) where unmatched edges are adjacent to each other and Case (b) where the unmatched edges are opposite to each other. <br><br>
+And just like the last layer cross, here is also only one algorithm<br>
+<div id="algo" align="center">
+<b>R U2 R' U' R U' R'</b>
+</div><br><br>
+
+Now, you should apply the algorithm in the following ways:- <br>
+***For (a)***:- Keep the unmatched edges on your right and front side and apply the algorithm. <br>
+***For (b)***:- Keep the unmatched edges on your right and left side and apply the algorithm, which will give you the Case (a) and then do the algo as said above. <br><br>
+In this way, you have solved the last layer edges also. And now only left with the remaining 8 corners of the cube. <br><br><br>
+
+#### Step 6:- Last Layer Corners
 
 
 
