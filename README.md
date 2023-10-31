@@ -137,9 +137,13 @@ And just like the last layer cross, here is also only one algorithm<br>
 Now, you should apply the algorithm in the following ways:- <br>
 ***For (a)***:- Keep the unmatched edges on your right and front side and apply the algorithm. <br>
 ***For (b)***:- Keep the unmatched edges on your right and left side and apply the algorithm, which will give you the Case (a) and then do the algo as said above. <br><br>
-In this way, you have solved the last layer edges also. And now only left with the remaining 8 corners of the cube. <br><br><br>
+In this way, you have solved the last layer edges also and the cube will look like this now, left with only the remaining 8 corners of the cube. <br>
+<div id="header" align="center">
+  <img src="https://github.com/MAYANKKS13/Rubik-s-Cube/assets/89644981/0afccf3e-15ec-4a17-b057-cf5768d0531e" width="150" height="150"/>
+</div><br><br>
 
 #### Step 6:- Last Layer Corners
+
 
 
 
