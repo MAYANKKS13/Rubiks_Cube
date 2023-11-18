@@ -144,9 +144,20 @@ In this way, you have solved the last layer edges also and the cube will look li
 
 #### Step 6:- Last Layer Corners
 
+This part of the process is divided into two steps:-<br>
+***Step 1***:- Placing the corners in the right places matching with the center colours.<br>
+***Step 2***:- Permute the corners in their respective places to get the cube solved.<br><br><br>
+**Step 1**:-<br>
+After solving the last layer edges, we are going to get atleast one corner cubie its right place (need not to be in the correct orientation, only at the right place). We have to bring that corner to the bottom right of the top layer as shown in the figure by rotating the cube and then perform the given algorithm <br>
 
-
-
+<div id="header" align="center">
+<img src="https://github.com/MAYANKKS13/Rubik-s-Cube/assets/89644981/d44e1856-7156-49c3-9dff-e298d1600b96" width="120" height="120"/>
+</div><br>
+<div id="algo" align="center">
+<b>L' U R U' L U R' U'</b>
+</div><br>
+This will change the positions of the other three corner cubies. Check if they have been placed in their correct position. If not, then perform the algorithm again untill its done. <br>
+In this way, all the corners will be placed in their right positions.<br><br>
 
 
 
