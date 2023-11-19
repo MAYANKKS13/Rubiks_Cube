@@ -128,7 +128,8 @@ For the last layer edges match, you are going to get atleast two edges match wit
 <img src="https://github.com/MAYANKKS13/Rubik-s-Cube/assets/89644981/1a5ba84d-1091-43e2-91c6-f03a3aaecd9f" width="120" height="120"/>(b)
 </div><br>
 
-Case (a) where unmatched edges are adjacent to each other and Case (b) where the unmatched edges are opposite to each other. <br><br>
+***Case (a)***:- Unmatched edges are adjacent to each other.<br>
+***Case (b)***:- Unmatched edges are opposite to each other. <br><br>
 And just like the last layer cross, here is also only one algorithm<br>
 <div id="algo" align="center">
 <b>R U2 R' U' R U' R'</b>
@@ -148,7 +149,7 @@ This part of the process is divided into two steps:-<br>
 ***Step 1***:- Placing the corners in the right places matching with the center colours.<br>
 ***Step 2***:- Permute the corners in their respective places to get the cube solved.<br><br><br>
 **Step 1**:-<br>
-After solving the last layer edges, we are going to get atleast one corner cubie its right place (need not to be in the correct orientation, only at the right place). We have to bring that corner to the bottom right of the top layer as shown in the figure by rotating the cube and then perform the given algorithm <br>
+After solving the last layer edges, we are going to get atleast one corner cubie its right place (need not to be in the correct orientation, only at the right place). We have to bring that corner to the bottom right of the top layer as shown in the figure by rotating the cube (not by turning the top layer) and then perform the given algorithm <br>
 
 <div id="header" align="center">
 <img src="https://github.com/MAYANKKS13/Rubik-s-Cube/assets/89644981/d44e1856-7156-49c3-9dff-e298d1600b96" width="120" height="120"/>
@@ -159,17 +160,47 @@ After solving the last layer edges, we are going to get atleast one corner cubie
 This will change the positions of the other three corner cubies. Check if they have been placed in their correct position. If not, then perform the algorithm again untill its done. <br>
 In this way, all the corners will be placed in their right positions.<br><br>
 
+**Step 2**:-<br>
+After placing the corners in their correct positions, we have to correct their orientation. This part of the process is little confusing, so understand it very precisely. <br><br>
+For every corner cubie that we have to solve, we have to place them in the bottom right corner of the top layer as same as in the previous case. And as in our case top colour is yellow, 2 cases is going to occur as shown in the figue<br><br>
+***Case (a)***:- Yellow colour on the right side<br>
+***Case (b)***:- Yellow colour on the front side<br>
 
+<div id="header" align="center">
+<img src="https://github.com/MAYANKKS13/Rubik-s-Cube/assets/89644981/314ffd37-ef47-448f-a1b7-827e1e7e29b8" width="120" height="120"/>(a)
+<img src="https://github.com/MAYANKKS13/Rubik-s-Cube/assets/89644981/ad922e6f-1f62-4b10-b973-0c1cdbb7d26c" width="120" height="120"/>(b)
+</div><br>
 
+*(One more case can occur in which yellow colour is on the top side. In that we don't have to do anything as it is already the solve case)* <br><br>
+Now, for the above two cases, there is only one algorithm which we have to implement a certain number of times to get that corner solved. The algorithm is<br>
+<div id="algo" align="center">
+<b>R' D' R D</b>
+</div><br>
+Now,<br>
 
+***For (a)***:- Apply the algo two times i.e. (R' D' R D) x 2.<br>
+***For (b)***:- Apply the algo four times i.e. (R' D' R D) x 4. *(Applying first two times will give Case (a) and then applying two times, that's why total 4 times.)* <br><br>
+After applying the algorithm for a corner, yellow colour will come on the top as shown in the figure means it is solved.<br>
 
+<div id="header" align="center">
+<img src="https://github.com/MAYANKKS13/Rubik-s-Cube/assets/89644981/b9e19906-3f29-4710-a382-2db920727b69" width="120" height="120"/>
+</div><br>
 
+Now bring the other corner on the bottom right of the top layer but this time by moving the top layer, either by doing **U** or **U'** like this.<br>
 
+<div id="header" align="center">
+<img src="https://github.com/MAYANKKS13/Rubik-s-Cube/assets/89644981/f11969dc-0023-4d1f-888a-55ae67161d67" width="120" height="120"/>
+</div><br>
 
+Now, again apply the algorithm depending upon the case generated from the above two. Then turn the top layer again and again apply the algo. Do this for all the four corners and eventually the cube will get solved.
 
+***Imp:- Applying these algorithms will defiitely mix up the whole cube but don't get panic, it is the part of the process. You only have to concentrate on the corners of the top layer and the application of the algorithms. After you are done with the last corner, the cube will be solved automatically.*** <br><br><br>
 
+Finally, after performing all the algorithms and moves that is stated above from the starting, **CONGRATS** you have solved the Rubik's Cube.<br>
 
-
+<div id="header" align="center">
+<img src="https://github.com/MAYANKKS13/Rubik-s-Cube/assets/89644981/a5c85031-8f48-49d7-936c-1c162c4941f2" width="160" height="160"/>
+</div><br>
 
 
 
